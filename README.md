@@ -4,19 +4,19 @@ A strongly connected graph is a directed graph that has a path from each vertex 
 
 Take the graph below for example. This graph is a directed graph, but is not strongly connected (for instance, point 3 does not connect to any other point). 
 
-![A directed graph that is not strongly connected.](Figures/Fig. 1.png)
+![A directed graph that is not strongly connected.](https://github.com/GeorgeMLP/augmenting-directed-graph/raw/master/Figures/Fig. 1.png)
 
 We can augment this graph by adding 2 edges to make it strongly connected, as shown in the figure below. 
 
-![Augmented graph that is strongly connected.](Figures/Fig. 2.png)
+![Augmented graph that is strongly connected.](https://github.com/GeorgeMLP/augmenting-directed-graph/raw/master/Figures/Fig. 2.png)
 
 It can be proven that 2 is the least amount of edges possible to make this graph strongly connected. 
 
 ## Input and output
 
-A directed graph can be expressed by an *adjacency matrix*. For a directed graph with $n$ points, its adjacency matrix has a order of $n$, composed of 0 and 1. If the element in the $i\mathrm{th}$ row and the $j\mathrm{th}$ column is 1, then there is a edge from point $i$ to point $j$. Otherwise there are no such edges. For example, the adjacency matrix of the directed graph mentioned above is shown in the figure below. 
+A directed graph can be expressed by an *adjacency matrix*. For a directed graph with ![](http://latex.codecogs.com/svg.latex?n) points, its adjacency matrix has a order of ![](http://latex.codecogs.com/svg.latex?n), composed of 0 and 1. If the element in the ![](http://latex.codecogs.com/svg.latex?i\mathrm{th}) row and the ![](http://latex.codecogs.com/svg.latex?j\mathrm{th}) column is 1, then there is a edge from point ![](http://latex.codecogs.com/svg.latex?i) to point ![](http://latex.codecogs.com/svg.latex?j). Otherwise there are no such edges. For example, the adjacency matrix of the directed graph mentioned above is shown in the figure below. 
 
-![The adjacency matrix of the directed graph in Fig. 1.](Figures/Fig. 3.png)
+![The adjacency matrix of the directed graph in Fig. 1.](https://github.com/GeorgeMLP/augmenting-directed-graph/raw/master/Figures/Fig. 3.png)
 
 Input a directed graph using its adjacency matrix in the following form:
 
